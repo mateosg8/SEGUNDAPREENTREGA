@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    height:50px;
+    background-color: #cfa314;
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+    
+}
+
+.logo {
+    float: left;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+span {
+    color: black;
+}
+
+.barra {
+    float: right;
+}
+
+.barra ul {
+    list-style: none;
+}
+
+.barra ul li {
+    display: inline-block;
+}
+
+.barra a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.barra a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.contenedor h2 {
+    float: left;
+    font-size: 30px;
+    padding: 40px;
+}
+
+.principal {
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
+    background-image: url(/imagenes/fondo.jpg);
+    background-size: cover;
+}
+
+.call{
+    color: #fff;
+    width: 40%;
+    height: auto;
+    float: left;
+    margin-top: 250px;
+    margin-left: 200px;
+}
+
+.call h1 {
+    font-size: 100px;
+}
+
+.call .pagos {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.call a {
+    background-color: #cfa314;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.redes {
+    color: #cfa314;
+    font-size: 50px;
+}
+
+
+
+.nosotros-main  {
+    background-color: #111;
+    width: 100%;
+    height: 100vh;
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.nosotros-main h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-top: 300px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border: 10px solid #cfa314;
+    border-radius: 100px;
+}
+
+.nosotros-main .nosotros {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.nosotros-main .nosotros2 {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.nosotros-imagenes{
+    height: 100vh;
+    background-color: #111;
+}
+
+.nosotros-imagenes img {
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+    max-height: 100vh;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.ubicacion {
+    background-color: #111;
+    height: 100vh;
+    width: 100%;
+}
+
+.ubicacion .ubicacion2 {
+    width: 50%;
+    height: 100vh;
+    float: right;
+}
+
+.ubicacion .ubicacion2 iframe {
+    width: 900px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.ubicacion .ubicacion3 {
+    color: #fff;
+    float: left;
+    margin-right: 220px;
+    text-align: center;
+    margin: auto;
+}
+
+.ubicacion h1 {
+    align-items: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: 5px solid #cfa314;
+    border-radius: 15px;  
+}
+
+.ubicacion .ubicacion3 img {
+    margin-top: 40px;
+    width: 700px;
+    height: 700px;
+}
+
+.main-menu {
+    background-color: #111;
+    height: 100%;
+    width: 100%;
+}
+
+.main-menu .hamburguesas{
+    text-align: center;
+    padding: 30px;
+}
+
+.main-menu .hamburguesas img {
+    width: 500px;
+    text-align: center;
+}
+
+.main-menu .hamburguesas h2 {
+    color: #cfa314;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.main-menu .hamburguesas p {
+    color: #fff;
+    padding-top: 15px;
+}   
+
+
+.contacto-main {
+    background-color: #111;
+    height: 100vh;
+    width: 100%;
+}
+
+.contacto-main .contacto h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.contacto-main .contacto form {
+    background-color: #fff;
+    padding: 10px   ;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.contacto-main .contacto form p {
+    padding: 15px;
+    padding-left: 0;
+}
+
+.contacto-main .contacto .btn {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    background-color: #cfa314;
+    color: #fff;
+}
+
+.contacto-main .contacto .btn:hover {
+    color: #111;
+}
+
+

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+    background-color: #111 ;
+}
+header {
+    background-color: #cfa314;
+    font-size: 20px;
+}
+
+#logo {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#logo span {
+    color: black;
+}
+
+#barra {
+    text-align: center;
+}
+
+#barra ul {
+    list-style: none;
+}
+
+#barra ul li {
+    display: inline-block;
+}
+
+#barra a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+#barra a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+section{
+    background-color: #111;
+}
+section aside .hamburguesa {
+height: 550px;
+}
+
+section aside .texto {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+section aside #hamb1 {
+    background-image: url(/imagenes/hamburguesas/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section aside #hamb2 {
+    background-image: url(/imagenes/hamburguesas/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section aside #hamb3 {
+    background-image: url(/imagenes/hamburguesas/3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section aside #hamb4 {
+    background-image: url(/imagenes/hamburguesas/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section aside #txt1 h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #cfa314;
+}
+
+section aside #txt1 p {
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+footer i {
+    color: #cfa314;
+    font-size: 45px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+p {
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+section aside .imagenes {
+    height: 550px;
+}
+
+section aside #img1 {
+    background-image: url(/imagenes/fotos/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section aside #img2 {
+    background-image: url(/imagenes/fotos/7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section aside #img3 {
+    background-image: url(/imagenes/fotos/5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section aside #img4 {
+    background-image: url(/imagenes/fotos/9.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
